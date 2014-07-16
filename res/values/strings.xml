@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AutismApplication</string>
+    <string-array name="headers">
+        <item>header 1</item>
+        <item>header 2</item>
+        <item>header 3</item>
+        <item>header 4</item>
+        <item>header 5</item>
+    </string-array>
+    <string-array name="contents">
+        <item>contents 1</item>
+        <item>contents 2</item>
+        <item>contents 3</item>
+        <item>contents 4</item>
+        <item>contents 5</item>
+    </string-array>
+    <string name="btn1">Button1</string>
+    <string name="btn2">Button2</string>
+    <string name="btn3">Button3</string>
+</resources>
