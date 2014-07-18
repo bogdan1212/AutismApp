@@ -1,26 +1,53 @@
 package com.example.AutismApplication;
 
 import android.app.Activity;
+import android.speech.tts.TextToSpeech;
+import android.util.Log;
 import android.content.Intent;
 import android.view.View;
 import android.widget.Button;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import com.example.AutismApplication.FragmentTitle.OnItemClickListener;
+import org.w3c.dom.Text;
 
-public class MainActivity extends FragmentActivity implements OnItemClickListener {
+import java.util.Locale;
+
+public class MainActivity extends FragmentActivity implements OnItemClickListener  {
     /**
      * Called when the activity is first created.
      */
 
     int position=0;
     boolean withDetails = true;
+    private TextToSpeech mTTS;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.main);
+
+        mTTS = new TextToSpeech(this,new TextToSpeech.OnInitListener() {
+            @Override
+            public void onInit(int status) {
+                if(status == TextToSpeech.SUCCESS) {
+                    Locale locale = new Locale("ru");
+
+                    int result = mTTS.setLanguage(locale);
+
+                    if(result == TextToSpeech.LANG_MISSING_DATA ||
+                            result == TextToSpeech.LANG_NOT_SUPPORTED) {
+                        Log.e("TTS", "Language is not supported");
+                    } else {
+                        Log.e("TTS", "It should work");
+                    }
+                } else {
+                    Log.e("TTS", "Error");
+                }
+            }
+        });
+
         if (savedInstanceState != null)
             position = savedInstanceState.getInt("position");
         withDetails = (findViewById(R.id.cont) != null);
@@ -60,11 +87,14 @@ public void onClick(View view) {
         Button btn=(Button)view;
         Intent intent = new Intent(this, DetailActivity.class);
         startActivity(intent);
+        String textToSpeech = "";
 
 
         switch (btn.getId())
         {
             case R.id.btn1:
+                textToSpeech = "Я хочу есть";
+                mTTS.speak(textToSpeech, TextToSpeech.QUEUE_FLUSH, null);
                 position=1;
                 break;
 
@@ -97,5 +127,13 @@ public void onClick(View view) {
                 break;
         }
         itemClick(position);
+    }
+
+    public void onDestroy () {
+        if(mTTS != null) {
+            mTTS.stop();
+            mTTS.shutdown();
+        }
+        super.onDestroy();
     }
 }
