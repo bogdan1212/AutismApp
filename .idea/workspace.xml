@@ -9,6 +9,14 @@
     <shared>
       <config />
     </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/res/layout/main.xml">
+        <config>
+          <device>Nexus 4</device>
+          <theme>@android:style/Theme.Holo</theme>
+        </config>
+      </layout>
+    </layouts>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27a8a0d2-2f82-45a8-8872-ac05b55b7cf4" name="Default" comment="" />
@@ -21,6 +29,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -28,7 +41,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
         <option name="NOTIFY_UNCAUGHT" value="true" />
@@ -64,9 +77,9 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true" />
-    <breakpoint_rules converted="true" />
-    <ui_properties converted="true" />
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -74,28 +87,106 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="dislike_layout.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/dislike_layout.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="1955">
-              <caret line="105" column="50" selection-start-line="105" selection-start-column="50" selection-end-line="105" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="other_layout.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/other_layout.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1649" max-vertical-offset="1938">
-              <caret line="97" column="35" selection-start-line="97" selection-start-column="35" selection-end-line="97" selection-end-column="35" />
-              <folding />
+      <file leaf-file-name="JAVA/com.example.AutismApplication.MainActivity" pinned="false" current="false" current-in-tab="false">
+        <entry file="uml://JAVA/com.example.AutismApplication.MainActivity">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>com.example.AutismApplication.MainActivity</OriginalElement>
+              <nodes>
+                <node x="304.0" y="78.0">android.content.ComponentCallbacks</node>
+                <node x="375.5" y="322.0">android.support.v4.app.FragmentActivity</node>
+                <node x="646.0" y="156.0">android.view.ContextThemeWrapper</node>
+                <node x="3.0" y="78.0">android.view.LayoutInflater.Factory</node>
+                <node x="316.25" y="400.0">com.example.AutismApplication.MainActivity</node>
+                <node x="553.0" y="156.0">android.view.KeyEvent.Callback</node>
+                <node x="0.0" y="156.0">android.view.LayoutInflater.Factory2</node>
+                <node x="662.0" y="78.0">android.content.ContextWrapper</node>
+                <node x="226.49999999999997" y="322.0">com.example.AutismApplication.FragmentTitle.OnItemClickListener</node>
+                <node x="301.0" y="156.0">android.content.ComponentCallbacks2</node>
+                <node x="683.0" y="0.0">android.content.Context</node>
+                <node x="398.5" y="244.0">android.app.Activity</node>
+                <node x="97.0" y="156.0">android.view.View.OnCreateContextMenuListener</node>
+                <node x="460.0" y="156.0">android.view.Window.Callback</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="android.app.Activity" target="android.view.ContextThemeWrapper">
+                  <point x="29.166666666666686" y="-14.0" />
+                  <point x="462.66666666666663" y="224.0" />
+                  <point x="719.5" y="224.0" />
+                  <point x="0.0" y="14.0" />
+                </edge>
+                <edge source="com.example.AutismApplication.MainActivity" target="android.support.v4.app.FragmentActivity">
+                  <point x="23.0" y="-14.0" />
+                  <point x="385.25" y="375.0" />
+                  <point x="433.5" y="375.0" />
+                  <point x="0.0" y="14.0" />
+                </edge>
+                <edge source="android.app.Activity" target="android.content.ComponentCallbacks2">
+                  <point x="-5.833333333333314" y="-14.0" />
+                  <point x="427.66666666666663" y="204.0" />
+                  <point x="370.5" y="204.0" />
+                  <point x="0.0" y="14.0" />
+                </edge>
+                <edge source="android.content.ComponentCallbacks2" target="android.content.ComponentCallbacks">
+                  <point x="0.0" y="-14.0" />
+                  <point x="0.0" y="14.0" />
+                </edge>
+                <edge source="com.example.AutismApplication.MainActivity" target="com.example.AutismApplication.FragmentTitle.OnItemClickListener">
+                  <point x="-23.0" y="-14.0" />
+                  <point x="339.25" y="375.0" />
+                  <point x="291.0" y="375.0" />
+                  <point x="0.0" y="14.0" />
+                </edge>
+                <edge source="android.view.ContextThemeWrapper" target="android.content.ContextWrapper">
+                  <point x="0.0" y="-14.0" />
+                  <point x="0.0" y="14.0" />
+                </edge>
+                <edge source="android.view.LayoutInflater.Factory2" target="android.view.LayoutInflater.Factory">
+                  <point x="0.0" y="-14.0" />
+                  <point x="0.0" y="14.0" />
+                </edge>
+                <edge source="android.content.ContextWrapper" target="android.content.Context">
+                  <point x="0.0" y="-14.0" />
+                  <point x="0.0" y="14.0" />
+                </edge>
+                <edge source="android.app.Activity" target="android.view.View.OnCreateContextMenuListener">
+                  <point x="-17.5" y="-14.0" />
+                  <point x="416.0" y="214.0" />
+                  <point x="189.0" y="214.0" />
+                  <point x="0.0" y="14.0" />
+                </edge>
+                <edge source="android.support.v4.app.FragmentActivity" target="android.app.Activity">
+                  <point x="0.0" y="-14.0" />
+                  <point x="0.0" y="14.0" />
+                </edge>
+                <edge source="android.app.Activity" target="android.view.KeyEvent.Callback">
+                  <point x="17.5" y="-14.0" />
+                  <point x="451.0" y="214.0" />
+                  <point x="589.5" y="214.0" />
+                  <point x="0.0" y="14.0" />
+                </edge>
+                <edge source="android.app.Activity" target="android.view.LayoutInflater.Factory2">
+                  <point x="-29.16666666666663" y="-14.0" />
+                  <point x="404.33333333333337" y="224.0" />
+                  <point x="38.5" y="224.0" />
+                  <point x="0.0" y="14.0" />
+                </edge>
+                <edge source="android.app.Activity" target="android.view.Window.Callback">
+                  <point x="5.833333333333314" y="-14.0" />
+                  <point x="439.33333333333326" y="204.0" />
+                  <point x="496.5" y="204.0" />
+                  <point x="0.0" y="14.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.5904059040590406" x="396.5" y="214.0" />
+              <SelectedNodes>
+                <node>com.example.AutismApplication.MainActivity</node>
+              </SelectedNodes>
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -103,34 +194,7 @@
       <file leaf-file-name="DetailActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/AutismApplication/DetailActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="1207">
-              <caret line="58" column="60" selection-start-line="58" selection-start-column="60" selection-end-line="58" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fine_layout.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/fine_layout.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="1955">
-              <caret line="105" column="54" selection-start-line="105" selection-start-column="54" selection-end-line="105" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nowont_layout.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/nowont_layout.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1649" max-vertical-offset="1955">
-              <caret line="97" column="55" selection-start-line="97" selection-start-column="55" selection-end-line="97" selection-end-column="55" />
+            <state line="338" column="0" selection-start="12982" selection-end="12982" vertical-scroll-proportion="0.0" vertical-offset="8856" max-vertical-offset="9282">
               <folding />
             </state>
           </provider>
@@ -139,8 +203,28 @@
       <file leaf-file-name="FragmentDetail.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/AutismApplication/FragmentDetail.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
-              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+            <state line="20" column="31" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0" vertical-offset="50" max-vertical-offset="476">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nowont_layout.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/nowont_layout.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="45" selection-start="1467" selection-end="1467" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1190">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FragmentTitle.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/AutismApplication/FragmentTitle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="0" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0" vertical-offset="356" max-vertical-offset="782">
               <folding />
             </state>
           </provider>
@@ -149,48 +233,49 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/AutismApplication/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="4.0698256" vertical-offset="0" max-vertical-offset="2465">
-              <caret line="96" column="73" selection-start-line="96" selection-start-column="73" selection-end-line="96" selection-end-column="73" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#845#1539#0" expanded="true" />
-                <element signature="e#1528#1529#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="like_layout.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/like_layout.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="1955">
-              <caret line="105" column="54" selection-start-line="105" selection-start-column="54" selection-end-line="105" selection-end-column="54" />
+            <state line="261" column="62" selection-start="10192" selection-end="10564" vertical-scroll-proportion="0.7605634" vertical-offset="3280" max-vertical-offset="4165">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout-land/main.xml">
+      <file leaf-file-name="dialog2.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/dialog2.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="0" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="408">
+              <folding />
+            </state>
+          </provider>
           <provider editor-type-id="android-designer">
             <state />
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.06" vertical-offset="0" max-vertical-offset="340">
-              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+            <state line="22" column="55" selection-start="1165" selection-end="1165" vertical-scroll-proportion="0.0" vertical-offset="69" max-vertical-offset="544">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FragmentTitle.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/AutismApplication/FragmentTitle.java">
+      <file leaf-file-name="dialog.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/dialog.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="59" max-vertical-offset="935">
-              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+            <state line="14" column="32" selection-start="608" selection-end="608" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="578">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="24" selection-start="672" selection-end="672" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="476">
               <folding />
             </state>
           </provider>
@@ -206,21 +291,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/res/layout/other_layout.xml" />
         <option value="$PROJECT_DIR$/src/com/example/AutismApplication/OnItemClickListener.java" />
         <option value="$PROJECT_DIR$/res/layout-land/main.xml" />
         <option value="$PROJECT_DIR$/src/com/example/AutismApplication/FragmentDetail.java" />
-        <option value="$PROJECT_DIR$/src/com/example/AutismApplication/DetailActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/example/AutismApplication/ReferenceButton.java" />
+        <option value="$PROJECT_DIR$/src/com/example/AutismApplication/MyListener.java" />
+        <option value="$PROJECT_DIR$/res/layout/test.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/AutismApplication/LikeActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
+        <option value="$PROJECT_DIR$/res/layout/like_layout.xml" />
+        <option value="$PROJECT_DIR$/res/layout/other_layout.xml" />
         <option value="$PROJECT_DIR$/res/layout/bad_layout.xml" />
         <option value="$PROJECT_DIR$/res/layout/dislike_layout.xml" />
         <option value="$PROJECT_DIR$/res/layout/fine_layout.xml" />
-        <option value="$PROJECT_DIR$/res/layout/like_layout.xml" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/AutismApplication/Dialog.java" />
+        <option value="$PROJECT_DIR$/res/layout/dialog2.xml" />
+        <option value="$PROJECT_DIR$/res/layout/dialog.xml" />
         <option value="$PROJECT_DIR$/res/layout/desire_layout.xml" />
-        <option value="$PROJECT_DIR$/res/layout/nowont_layout.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/AutismApplication/DesireActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/example/AutismApplication/Synthesizer.java" />
         <option value="$PROJECT_DIR$/src/com/example/AutismApplication/FragmentTitle.java" />
+        <option value="$PROJECT_DIR$/res/layout/nowont_layout.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/AutismApplication/DetailActivity.java" />
         <option value="$PROJECT_DIR$/src/com/example/AutismApplication/MainActivity.java" />
       </list>
     </option>
@@ -228,8 +322,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="776" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -247,7 +341,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -259,12 +353,17 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="AutismApplication" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -366,7 +465,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -382,16 +480,17 @@
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="C:/Program Files/Android/android-sdk/extras/android/support/v4/android-support-v4.jar!/" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="SH3ALWA02766" />
     <property name="FullScreen" value="false" />
-    <property name="restartRequiresConfirmation" value="true" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="emulator1" />
+    <property name="SearchEverywhereHistory" value="main" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -399,7 +498,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Android Application.AutismApplication">
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
       <module name="" />
       <setting name="vmparams" value="" />
       <setting name="cmdLine" value="run-app" />
@@ -409,7 +508,7 @@
       <setting name="launchBrowser" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
@@ -423,7 +522,7 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -504,7 +603,7 @@
       <option name="launchUrl" value="false" />
       <option name="launcherParameters">
         <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="browserFamily" value="FIREFOX" />
           <option name="launcherType" value="OSDefault" />
           <option name="newPlayerInstance" value="false" />
           <option name="playerPath" value="FlashPlayerDebugger.exe" />
@@ -541,14 +640,13 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" output_log_level="null" package_name="" scope="Class">
       <option name="BCName" value="" />
       <option name="launcherParameters">
         <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="browserFamily" value="FIREFOX" />
           <option name="launcherType" value="OSDefault" />
           <option name="newPlayerInstance" value="false" />
           <option name="playerPath" value="FlashPlayerDebugger.exe" />
@@ -609,18 +707,17 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="false" name="AutismApplication" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="AutismApplication" />
       <option name="ACTIVITY_CLASS" value="com.example.AutismApplication.MainActivity" />
-      <option name="MODE" value="do_nothing" />
+      <option name="MODE" value="specific_activity" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="AEM2" />
+      <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
       <option name="WIPE_USER_DATA" value="false" />
@@ -629,7 +726,6 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <RunnerSettings RunnerId="AndroidDebugRunner" />
       <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
@@ -643,9 +739,6 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="27a8a0d2-2f82-45a8-8872-ac05b55b7cf4" name="Default" comment="" />
@@ -654,15 +747,37 @@
       <workItem from="1405418421355" duration="3488000" />
       <workItem from="1405505862370" duration="1915000" />
       <workItem from="1405517766334" duration="1080000" />
-      <workItem from="1405522274167" duration="235000" />
-      <workItem from="1405522657557" duration="1571000" />
-      <workItem from="1405707934873" duration="2612000" />
-      <workItem from="1405712062806" duration="4368000" />
+      <workItem from="1405522274167" duration="2211000" />
+      <workItem from="1405762554021" duration="2319000" />
+      <workItem from="1406123625382" duration="2203000" />
+      <workItem from="1406128383197" duration="220000" />
+      <workItem from="1407574566181" duration="12128000" />
+      <workItem from="1407666361520" duration="9564000" />
+      <workItem from="1407788124406" duration="1265000" />
+      <workItem from="1407795163600" duration="48000" />
+      <workItem from="1407925283547" duration="7880000" />
+      <workItem from="1408205864339" duration="1263000" />
+      <workItem from="1408301323477" duration="2289000" />
+      <workItem from="1408364254026" duration="3042000" />
+      <workItem from="1408371874137" duration="11372000" />
+      <workItem from="1408472990281" duration="1435000" />
+      <workItem from="1408573979433" duration="1103000" />
+      <workItem from="1408643455795" duration="8229000" />
+      <workItem from="1408741115925" duration="3927000" />
+      <workItem from="1408811688772" duration="435000" />
+      <workItem from="1408876785528" duration="10023000" />
+      <workItem from="1408891373639" duration="761000" />
+      <workItem from="1408920028934" duration="2641000" />
+      <workItem from="1408959153579" duration="1898000" />
+      <workItem from="1409045814749" duration="7228000" />
+      <workItem from="1409055995764" duration="9138000" />
+      <workItem from="1409070480346" duration="13605000" />
+      <workItem from="1409135889699" duration="890000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15269000" />
+    <option name="totallyTimeSpent" value="123600000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -685,45 +800,73 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890624" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3668942" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32934132" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19283277" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33083832" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32784432" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19283277" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32934132" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17598188" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32423207" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19283277" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17598188" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3668942" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32423207" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19283277" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
-      <collection />
-    </option>
-    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+    <option name="RECENTLY_FILTERED_USERS">
       <collection />
     </option>
   </component>
@@ -743,527 +886,668 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/layout/nowont_layout.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/example/AutismApplication/ReferenceButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="28" selection-start="192" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/dialog.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="32" selection-start="608" selection-end="608" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1649" max-vertical-offset="1955">
-          <caret line="97" column="55" selection-start-line="97" selection-start-column="55" selection-end-line="97" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/AutismApplication/FragmentDetail.java">
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="578">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/AutismApplication/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="1819">
-          <caret line="40" column="57" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#845#1539#0" expanded="true" />
-            <element signature="e#1528#1529#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/like_layout.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="1955">
-          <caret line="105" column="54" selection-start-line="105" selection-start-column="54" selection-end-line="105" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout-land/main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="340">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/AutismApplication/FragmentTitle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="271" max-vertical-offset="833">
-          <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+        <state line="20" column="24" selection-start="672" selection-end="672" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="476">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/dislike_layout.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1955">
-          <caret line="105" column="50" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state line="105" column="50" selection-start="4411" selection-end="4411" vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="1955">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/other_layout.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="51" selection-start="3945" selection-end="3945" vertical-scroll-proportion="0.0" vertical-offset="1717" max-vertical-offset="1938">
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="android-designer">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1401" max-vertical-offset="1938">
-          <caret line="97" column="35" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/AutismApplication/DetailActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="1207">
-          <caret line="58" column="60" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/fine_layout.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="1955">
-          <caret line="105" column="54" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state line="105" column="54" selection-start="4415" selection-end="4415" vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="1955">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/nowont_layout.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1649" max-vertical-offset="1955">
-          <caret line="97" column="55" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state line="97" column="55" selection-start="3855" selection-end="3855" vertical-scroll-proportion="0.0" vertical-offset="1649" max-vertical-offset="1955">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/AutismApplication/FragmentDetail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="578">
-          <caret line="18" column="35" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
+        <state line="18" column="35" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="578" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/AutismApplication/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="1819">
-          <caret line="40" column="57" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#845#1539#0" expanded="true" />
-            <element signature="e#1528#1529#0" expanded="true" />
-          </folding>
+        <state line="40" column="57" selection-start="1418" selection-end="1418" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="1819">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/like_layout.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="1955">
-          <caret line="105" column="54" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state line="105" column="54" selection-start="4415" selection-end="4415" vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="1955">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout-land/main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="340">
-          <caret line="9" column="33" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state line="9" column="33" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="340">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/AutismApplication/FragmentTitle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="833">
-          <caret line="42" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/desire_layout.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1938">
-          <caret line="100" column="47" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/dislike_layout.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="1955">
-          <caret line="105" column="50" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/other_layout.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1717" max-vertical-offset="1938">
-          <caret line="101" column="51" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/fine_layout.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="1955">
-          <caret line="105" column="54" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/nowont_layout.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1649" max-vertical-offset="1955">
-          <caret line="97" column="55" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/AutismApplication/FragmentDetail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="578">
-          <caret line="18" column="35" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/AutismApplication/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="1819">
-          <caret line="40" column="57" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#845#1539#0" expanded="true" />
-            <element signature="e#1528#1529#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/like_layout.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="1955">
-          <caret line="105" column="54" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout-land/main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="340">
-          <caret line="9" column="33" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/AutismApplication/FragmentTitle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="293" max-vertical-offset="935">
-          <caret line="42" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
+        <state line="42" column="28" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.0" vertical-offset="293" max-vertical-offset="935" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/AutismApplication/DetailActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
-          <caret line="33" column="65" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state line="33" column="65" selection-start="1059" selection-end="1059" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/bad_layout.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1938">
-          <caret line="96" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state line="96" column="0" selection-start="3688" selection-end="3688" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1938">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1972">
-          <caret line="22" column="40" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state line="22" column="40" selection-start="969" selection-end="969" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1972">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/other_layout.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1768" max-vertical-offset="1938">
-          <caret line="104" column="54" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state line="104" column="54" selection-start="4090" selection-end="4090" vertical-scroll-proportion="0.0" vertical-offset="1768" max-vertical-offset="1938">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/nowont_layout.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1955">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1955">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/AutismApplication/FragmentDetail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="157" max-vertical-offset="578">
-          <caret line="13" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
+        <state line="13" column="13" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0" vertical-offset="157" max-vertical-offset="578" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/AutismApplication/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="402" max-vertical-offset="1819">
-          <caret line="40" column="57" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#845#1539#0" expanded="true" />
-            <element signature="e#1528#1529#0" expanded="true" />
-          </folding>
+        <state line="40" column="57" selection-start="1418" selection-end="1418" vertical-scroll-proportion="0.0" vertical-offset="402" max-vertical-offset="1819">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/like_layout.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1938">
-          <caret line="21" column="35" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state line="21" column="35" selection-start="909" selection-end="909" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1938">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout-land/main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="340">
-          <caret line="9" column="33" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state line="9" column="33" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="340">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/AutismApplication/FragmentTitle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="293" max-vertical-offset="935">
-          <caret line="42" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state line="42" column="28" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.0" vertical-offset="293" max-vertical-offset="935" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/adt-bundle-windows-x86_64-20140321/sdk/platforms/android-19/android.jar!/android/os/Looper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="16" selection-start="766" selection-end="766" vertical-scroll-proportion="0.33114755" vertical-offset="307" max-vertical-offset="629" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/adt-bundle-windows-x86_64-20140321/sdk/platforms/android-19/android.jar!/android/os/Handler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="16" selection-start="564" selection-end="564" vertical-scroll-proportion="0.33114755" vertical-offset="171" max-vertical-offset="1411" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/adt-bundle-windows-x86_64-20140321/sdk/platforms/android-19/android.jar!/android/view/View.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="20196" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/adt-bundle-windows-x86_64-20140321/sdk/platforms/android-19/android.jar!/android/view/ViewGroup.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="161" column="20" selection-start="8277" selection-end="8281" vertical-scroll-proportion="0.4888179" vertical-offset="2584" max-vertical-offset="6749" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout-land/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="33" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/adt-bundle-windows-x86_64-20140321/sdk/platforms/android-19/android.jar!/android/view/ContextThemeWrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/other_layout.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="25" selection-start="905" selection-end="905" vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="1938">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.example.AutismApplication.DetailActivity">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.example.AutismApplication.DetailActivity</OriginalElement>
+          <nodes>
+            <node x="" y="">android.content.ComponentCallbacks</node>
+            <node x="" y="">android.view.ContextThemeWrapper</node>
+            <node x="" y="">android.support.v4.app.FragmentActivity</node>
+            <node x="" y="">android.view.LayoutInflater.Factory</node>
+            <node x="" y="">android.view.LayoutInflater.Factory2</node>
+            <node x="" y="">android.view.KeyEvent.Callback</node>
+            <node x="" y="">com.example.AutismApplication.DetailActivity</node>
+            <node x="" y="">android.content.ContextWrapper</node>
+            <node x="" y="">android.content.ComponentCallbacks2</node>
+            <node x="" y="">android.view.View.OnCreateContextMenuListener</node>
+            <node x="" y="">android.content.Context</node>
+            <node x="" y="">android.app.Activity</node>
+            <node x="" y="">android.view.Window.Callback</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.239732142857143" x="2156.0" y="10753.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.example.AutismApplication.FragmentDetail">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.example.AutismApplication.FragmentDetail</OriginalElement>
+          <nodes>
+            <node x="1247.25" y="0.0">android.content.ComponentCallbacks</node>
+            <node x="1558.25" y="10.0">android.view.View.OnCreateContextMenuListener</node>
+            <node x="1454.5" y="3077.0">com.example.AutismApplication.FragmentDetail</node>
+            <node x="0.0" y="118.0">android.support.v4.app.Fragment</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="android.support.v4.app.Fragment" target="android.content.ComponentCallbacks">
+              <point x="-785.5" y="-1454.5" />
+              <point x="785.5" y="93.0" />
+              <point x="1392.75" y="93.0" />
+              <point x="0.0" y="34.0" />
+            </edge>
+            <edge source="com.example.AutismApplication.FragmentDetail" target="android.support.v4.app.Fragment">
+              <point x="0.0" y="-34.0" />
+              <point x="0.0" y="1454.5" />
+            </edge>
+            <edge source="android.support.v4.app.Fragment" target="android.view.View.OnCreateContextMenuListener">
+              <point x="785.5" y="-1454.5" />
+              <point x="2356.5" y="93.0" />
+              <point x="1749.25" y="93.0" />
+              <point x="0.0" y="24.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.2000000000000002" x="1357.0" y="3121.0" />
+          <SelectedNodes>
+            <node>com.example.AutismApplication.FragmentDetail</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/AutismApplication/ReferenceButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="28" selection-start="192" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="595">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="uml://JAVA/com.example.AutismApplication.ReferenceButton">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.example.AutismApplication.ReferenceButton</OriginalElement>
+          <nodes>
+            <node x="13917.75" y="5779.0">android.widget.RemoteViews.RemoteView</node>
+            <node x="5825.0" y="10.0">android.graphics.drawable.Drawable.Callback</node>
+            <node x="12096.9" y="16417.0">android.widget.Button</node>
+            <node x="11404.0" y="5769.0">android.view.ViewTreeObserver.OnPreDrawListener</node>
+            <node x="5579.0" y="20.0">android.view.accessibility.AccessibilityEventSource</node>
+            <node x="5273.0" y="0.0">android.view.KeyEvent.Callback</node>
+            <node x="0.0" y="158.0">android.view.View</node>
+            <node x="8304.849999999999" y="11478.0">android.widget.TextView</node>
+            <node x="12101.9" y="16596.0">com.example.AutismApplication.ReferenceButton</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="android.widget.TextView" target="android.widget.RemoteViews.RemoteView">
+              <point x="1663.0" y="-2444.5" />
+              <point x="12462.349999999999" y="11453.0" />
+              <point x="13941.0" y="11453.0" />
+              <point x="-23.25" y="14.0" />
+            </edge>
+            <edge source="android.widget.Button" target="android.widget.RemoteViews.RemoteView">
+              <point x="54.25" y="-64.5" />
+              <point x="12259.65" y="16392.0" />
+              <point x="13987.5" y="16392.0" />
+              <point x="23.25" y="14.0" />
+            </edge>
+            <edge source="android.widget.TextView" target="android.view.ViewTreeObserver.OnPreDrawListener">
+              <point x="0.0" y="-2444.5" />
+              <point x="10799.349999999999" y="11453.0" />
+              <point x="11482.5" y="11453.0" />
+              <point x="0.0" y="24.0" />
+            </edge>
+            <edge source="android.view.View" target="android.view.accessibility.AccessibilityEventSource">
+              <point x="0.0" y="-5635.0" />
+              <point x="0.0" y="34.0" />
+            </edge>
+            <edge source="android.view.View" target="android.view.KeyEvent.Callback">
+              <point x="-3794.666666666666" y="-5635.0" />
+              <point x="1897.333333333334" y="133.0" />
+              <point x="5416.0" y="133.0" />
+              <point x="0.0" y="54.0" />
+            </edge>
+            <edge source="com.example.AutismApplication.ReferenceButton" target="android.widget.Button">
+              <point x="0.0" y="-75.0" />
+              <point x="0.0" y="64.5" />
+            </edge>
+            <edge source="android.view.View" target="android.graphics.drawable.Drawable.Callback">
+              <point x="3794.666666666666" y="-5635.0" />
+              <point x="9486.666666666666" y="133.0" />
+              <point x="5956.0" y="133.0" />
+              <point x="0.0" y="44.0" />
+            </edge>
+            <edge source="android.widget.Button" target="android.widget.TextView">
+              <point x="-54.25" y="-64.5" />
+              <point x="12151.15" y="16392.0" />
+              <point x="10799.349999999999" y="16392.0" />
+              <point x="0.0" y="2444.5" />
+            </edge>
+            <edge source="android.widget.TextView" target="android.view.View">
+              <point x="-1663.0" y="-2444.5" />
+              <point x="9136.349999999999" y="11453.0" />
+              <point x="5692.0" y="11453.0" />
+              <point x="0.0" y="5635.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.5" x="12020.0" y="16672.0" />
+          <SelectedNodes>
+            <node>com.example.AutismApplication.ReferenceButton</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Constructors</Category>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.example.AutismApplication">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.example.AutismApplication</OriginalElement>
+          <nodes>
+            <node x="0.0" y="311.0">com.example.AutismApplication.FragmentTitle</node>
+            <node x="0.0" y="557.0">com.example.AutismApplication.BuildConfig</node>
+            <node x="132.0" y="557.0">com.example.AutismApplication.Manifest</node>
+            <node x="0.0" y="444.0">com.example.AutismApplication.FragmentDetail</node>
+            <node x="312.0" y="118.0">com.example.AutismApplication.MainActivity</node>
+            <node x="278.0" y="444.0">com.example.AutismApplication.MyListener</node>
+            <node x="252.0" y="557.0">com.example.AutismApplication.R</node>
+            <node x="0.0" y="138.0">com.example.AutismApplication.DetailActivity</node>
+            <node x="143.5" y="0.0">com.example.AutismApplication.ReferenceButton</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.1" x="-116.0" y="148.0" />
+          <SelectedNodes>
+            <node>com.example.AutismApplication.FragmentTitle</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/adt-bundle-windows-x86_64-20140321/sdk/platforms/android-19/android.jar!/android/app/Activity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7565" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <caret line="2" column="54" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state line="20" column="24" selection-start="672" selection-end="672" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <caret line="15" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#303#321#0" expanded="false" />
-            <element signature="e#455#473#0" expanded="false" />
-          </folding>
+        <state line="22" column="55" selection-start="1165" selection-end="1165" vertical-scroll-proportion="0.0" vertical-offset="69" max-vertical-offset="544">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+    <entry file="uml://JAVA/com.example.AutismApplication.MainActivity">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.example.AutismApplication.MainActivity</OriginalElement>
+          <nodes>
+            <node x="304.0" y="78.0">android.content.ComponentCallbacks</node>
+            <node x="375.5" y="322.0">android.support.v4.app.FragmentActivity</node>
+            <node x="646.0" y="156.0">android.view.ContextThemeWrapper</node>
+            <node x="3.0" y="78.0">android.view.LayoutInflater.Factory</node>
+            <node x="316.25" y="400.0">com.example.AutismApplication.MainActivity</node>
+            <node x="553.0" y="156.0">android.view.KeyEvent.Callback</node>
+            <node x="0.0" y="156.0">android.view.LayoutInflater.Factory2</node>
+            <node x="662.0" y="78.0">android.content.ContextWrapper</node>
+            <node x="226.49999999999997" y="322.0">com.example.AutismApplication.FragmentTitle.OnItemClickListener</node>
+            <node x="301.0" y="156.0">android.content.ComponentCallbacks2</node>
+            <node x="683.0" y="0.0">android.content.Context</node>
+            <node x="398.5" y="244.0">android.app.Activity</node>
+            <node x="97.0" y="156.0">android.view.View.OnCreateContextMenuListener</node>
+            <node x="460.0" y="156.0">android.view.Window.Callback</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="android.app.Activity" target="android.view.ContextThemeWrapper">
+              <point x="29.166666666666686" y="-14.0" />
+              <point x="462.66666666666663" y="224.0" />
+              <point x="719.5" y="224.0" />
+              <point x="0.0" y="14.0" />
+            </edge>
+            <edge source="com.example.AutismApplication.MainActivity" target="android.support.v4.app.FragmentActivity">
+              <point x="23.0" y="-14.0" />
+              <point x="385.25" y="375.0" />
+              <point x="433.5" y="375.0" />
+              <point x="0.0" y="14.0" />
+            </edge>
+            <edge source="android.app.Activity" target="android.content.ComponentCallbacks2">
+              <point x="-5.833333333333314" y="-14.0" />
+              <point x="427.66666666666663" y="204.0" />
+              <point x="370.5" y="204.0" />
+              <point x="0.0" y="14.0" />
+            </edge>
+            <edge source="android.content.ComponentCallbacks2" target="android.content.ComponentCallbacks">
+              <point x="0.0" y="-14.0" />
+              <point x="0.0" y="14.0" />
+            </edge>
+            <edge source="com.example.AutismApplication.MainActivity" target="com.example.AutismApplication.FragmentTitle.OnItemClickListener">
+              <point x="-23.0" y="-14.0" />
+              <point x="339.25" y="375.0" />
+              <point x="291.0" y="375.0" />
+              <point x="0.0" y="14.0" />
+            </edge>
+            <edge source="android.view.ContextThemeWrapper" target="android.content.ContextWrapper">
+              <point x="0.0" y="-14.0" />
+              <point x="0.0" y="14.0" />
+            </edge>
+            <edge source="android.view.LayoutInflater.Factory2" target="android.view.LayoutInflater.Factory">
+              <point x="0.0" y="-14.0" />
+              <point x="0.0" y="14.0" />
+            </edge>
+            <edge source="android.content.ContextWrapper" target="android.content.Context">
+              <point x="0.0" y="-14.0" />
+              <point x="0.0" y="14.0" />
+            </edge>
+            <edge source="android.app.Activity" target="android.view.View.OnCreateContextMenuListener">
+              <point x="-17.5" y="-14.0" />
+              <point x="416.0" y="214.0" />
+              <point x="189.0" y="214.0" />
+              <point x="0.0" y="14.0" />
+            </edge>
+            <edge source="android.support.v4.app.FragmentActivity" target="android.app.Activity">
+              <point x="0.0" y="-14.0" />
+              <point x="0.0" y="14.0" />
+            </edge>
+            <edge source="android.app.Activity" target="android.view.KeyEvent.Callback">
+              <point x="17.5" y="-14.0" />
+              <point x="451.0" y="214.0" />
+              <point x="589.5" y="214.0" />
+              <point x="0.0" y="14.0" />
+            </edge>
+            <edge source="android.app.Activity" target="android.view.LayoutInflater.Factory2">
+              <point x="-29.16666666666663" y="-14.0" />
+              <point x="404.33333333333337" y="224.0" />
+              <point x="38.5" y="224.0" />
+              <point x="0.0" y="14.0" />
+            </edge>
+            <edge source="android.app.Activity" target="android.view.Window.Callback">
+              <point x="5.833333333333314" y="-14.0" />
+              <point x="439.33333333333326" y="204.0" />
+              <point x="496.5" y="204.0" />
+              <point x="0.0" y="14.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.5904059040590406" x="396.5" y="214.0" />
+          <SelectedNodes>
+            <node>com.example.AutismApplication.MainActivity</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/dialog2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/dialog.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1972">
-          <caret line="22" column="40" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state line="14" column="32" selection-start="608" selection-end="608" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="578">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/bad_layout.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.12" vertical-offset="1224" max-vertical-offset="1955">
-          <caret line="81" column="43" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state line="15" column="0" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1190">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/desire_layout.xml">
       <provider editor-type-id="android-designer">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1479" max-vertical-offset="1938">
-          <caret line="100" column="47" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/dislike_layout.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="1955">
-          <caret line="105" column="50" selection-start-line="105" selection-start-column="50" selection-end-line="105" selection-end-column="50" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/fine_layout.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="19" selection-start="824" selection-end="824" vertical-scroll-proportion="0.92248064" vertical-offset="0" max-vertical-offset="1173">
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/desire_layout.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="1955">
-          <caret line="105" column="54" selection-start-line="105" selection-start-column="54" selection-end-line="105" selection-end-column="54" />
+        <state line="49" column="43" selection-start="1834" selection-end="1834" vertical-scroll-proportion="0.68" vertical-offset="561" max-vertical-offset="1258">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/like_layout.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="18" selection-start="4304" selection-end="4304" vertical-scroll-proportion="4.4089775" vertical-offset="0" max-vertical-offset="2057">
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="1955">
-          <caret line="105" column="54" selection-start-line="105" selection-start-column="54" selection-end-line="105" selection-end-column="54" />
+        <state line="6" column="19" selection-start="227" selection-end="227" vertical-scroll-proportion="-2.1620948" vertical-offset="969" max-vertical-offset="2125">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/dislike_layout.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="35" selection-start="2022" selection-end="2022" vertical-scroll-proportion="0.78746593" vertical-offset="595" max-vertical-offset="1173">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/nowont_layout.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1649" max-vertical-offset="1955">
-          <caret line="97" column="55" selection-start-line="97" selection-start-column="55" selection-end-line="97" selection-end-column="55" />
+        <state line="36" column="45" selection-start="1467" selection-end="1467" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1190">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/other_layout.xml">
       <provider editor-type-id="android-designer">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1401" max-vertical-offset="1938">
-          <caret line="97" column="35" selection-start-line="97" selection-start-column="35" selection-end-line="97" selection-end-column="35" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/AutismApplication/DetailActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="1207">
-          <caret line="58" column="60" selection-start-line="58" selection-start-column="60" selection-end-line="58" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/AutismApplication/FragmentTitle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="59" max-vertical-offset="935">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        <state line="338" column="0" selection-start="12982" selection-end="12982" vertical-scroll-proportion="0.0" vertical-offset="8856" max-vertical-offset="9282">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/AutismApplication/FragmentDetail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        <state line="20" column="31" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="476">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout-land/main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/com/example/AutismApplication/FragmentTitle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.06" vertical-offset="0" max-vertical-offset="340">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        <state line="22" column="0" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0" vertical-offset="164" max-vertical-offset="680">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/AutismApplication/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.0698256" vertical-offset="0" max-vertical-offset="2465">
-          <caret line="96" column="73" selection-start-line="96" selection-start-column="73" selection-end-line="96" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#845#1539#0" expanded="true" />
-            <element signature="e#1528#1529#0" expanded="true" />
-          </folding>
+        <state line="261" column="62" selection-start="10192" selection-end="10564" vertical-scroll-proportion="0.7605634" vertical-offset="3280" max-vertical-offset="4165">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1319,11 +1603,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Android|AutismApplication</last-edited>
+          <last-edited>AutismApplication</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

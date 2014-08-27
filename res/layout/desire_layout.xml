@@ -5,88 +5,48 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:background="#EBE9E9"
-        android:orientation="vertical" android:paddingBottom="5dp" android:paddingTop="5dp">
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp">
     <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:orientation="horizontal"
             android:layout_weight="1"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp">
-        <Button
-                android:id="@+id/btn1"
-                android:layout_height="fill_parent"
-                android:layout_width="wrap_content"
-                android:layout_weight="1"
-                android:layout_marginRight="5dp"
-                android:background="@drawable/btn_bath"
-                android:onClick="onClick"/>
-        <Button
-                android:id="@+id/btn2"
-                android:layout_height="fill_parent"
-                android:layout_width="wrap_content"
-                android:layout_weight="1"
-                android:layout_marginLeft="5dp"
-                android:background="@drawable/btn_eat"
-                android:onClick="onClick"/>
-    </LinearLayout>
-    <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:orientation="horizontal"
-            android:layout_weight="1"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
-            android:layout_marginTop="5dp">
-        <Button
-                android:id="@+id/btn3"
-                android:layout_height="fill_parent"
-                android:layout_width="wrap_content"
-                android:layout_weight="1"
-                android:layout_marginRight="5dp"
-                android:background="@drawable/btn_drink"
-                android:onClick="onClick"/>
-        <Button
-                android:id="@+id/btn4"
-                android:layout_height="fill_parent"
-                android:layout_width="wrap_content"
-                android:layout_weight="1"
-                android:layout_marginLeft="5dp"
-                android:background="@drawable/btn_read"
-                android:onClick="onClick"/>
-    </LinearLayout>
-    <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:orientation="horizontal"
-            android:layout_weight="1"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
-            android:layout_marginTop="5dp">
-        <Button
-                android:id="@+id/btn5"
-                android:layout_height="fill_parent"
-                android:layout_width="wrap_content"
-                android:layout_weight="1"
-                android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/desire_layout1">
 
-                android:onClick="onClick"/>
-        <Button
-                android:id="@+id/btn6"
-                android:layout_height="fill_parent"
-                android:layout_width="wrap_content"
-                android:layout_weight="1"
-                android:layout_marginLeft="5dp"
-
-                android:onClick="onClick"/>
     </LinearLayout>
     <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:orientation="horizontal"
             android:layout_weight="1"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/desire_layout2">
+
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/desire_layout3">
+
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:layout_marginTop="5dp">
         <Button
                 android:id="@+id/btn7"
@@ -95,7 +55,7 @@
                 android:layout_weight="1"
                 android:layout_marginRight="5dp"
                 android:background="@drawable/btn_eight"
-                android:onClick="onClick"/>
+                />
         <Button
                 android:id="@+id/btn8"
                 android:layout_height="fill_parent"
